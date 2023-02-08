@@ -31,7 +31,7 @@ jobs:
       # Run the POSTMAN collection
       - name: Run POSTMAN collection on real time
         run: |
-          newman run MinhaColecao.postman_collection.json -e workspace.postman_gçobals.json 
+          newman run MinhaColecao.postman_collection.json -e workspace.postman_globals.json 
       # Run the POSTMAN collection
       - name: Run POSTMAN collection
         run: |
