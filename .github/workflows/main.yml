@@ -31,7 +31,7 @@ jobs:
       # Run the POSTMAN collection
       - name: Run POSTMAN collection on real time
         run: |
-          newman run Minha_colecao.postman_collection.json -e workspace.postman_globals.json 
+          newman run Minha_colecao.postman_collection.json -e  workspace.postman_globals.json
       # Run the POSTMAN collection
       - name: Run POSTMAN collection
         run: |
@@ -42,17 +42,3 @@ jobs:
         with:
           name: RunReports
           path: testResults
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
